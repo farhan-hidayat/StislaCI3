@@ -17,6 +17,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </li>
               <li class="menu-header">Starter</li>
               <li class="<?php echo $this->uri->segment(2) == 'menusatu' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>admin/menusatu"><i class="far fa-square"></i> <span>Blank Page</span></a></li>
+              <li class="<?php echo $this->uri->segment(2) == 'tabel' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>admin/tabel"><i class="fas fa-th-large"></i> <span>Tabel</span></a></li>
+              <li class="menu-header">Pengaturan</li>
+              <li class="<?php echo $this->uri->segment(2) == 'akun' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>admin/akun"><i class="far fa-user"></i> <span>Akun</span></a></li>
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link has-dropdown"><i class="fas fa-th"></i> <span>Bootstrap</span></a>
                 <ul class="dropdown-menu">

@@ -30,6 +30,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <script src="<?php echo base_url() ?>assets/stisla/node_modules/jqvmap/dist/jquery.vmap.min.js"></script>
   <script src="<?php echo base_url() ?>assets/stisla/node_modules/jqvmap/dist/maps/jquery.vmap.world.js"></script>
   <script src="<?php echo base_url() ?>assets/stisla/node_modules/simpleweather/jquery.simpleWeather.min.js"></script>
+  <script src="<?php echo base_url() ?>assets/stisla/node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
 
   <!-- Template JS File -->
   <script src="<?php echo base_url() ?>assets/stisla/assets/js/scripts.js"></script>
@@ -38,5 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <!-- Page Specific JS File -->
   <script src="<?php echo base_url() ?>assets/stisla/assets/js/page/index.js"></script>
   <script src="<?php echo base_url() ?>assets/stisla/assets/js/page/index-0.js"></script>
+  <script src="<?php echo base_url() ?>assets/stisla/assets/js/page/components-table.js"></script>
+  
 </body>
 </html>

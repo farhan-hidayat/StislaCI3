@@ -26,8 +26,19 @@ class Admin extends CI_Controller {
 		);
 		$this->load->view('admin/menusatu', $data);
 	}
-    public function tes()
+    public function tabel()
 	{
-		$this->load->view('welcome_message');
+		$data = array(
+			'title' => "Tabel"
+		);
+		$this->load->view('admin/tabel', $data);
+	}
+
+    public function akun()
+	{
+		$data = array(
+			'title' => "Akun"
+		);
+		$this->load->view('admin/akun', $data);
 	}
 }
