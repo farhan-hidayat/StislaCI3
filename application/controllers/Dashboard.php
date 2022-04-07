@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Admin extends CI_Controller {
+class Dashboard extends CI_Controller {
 
 	public function index()
 	{
@@ -9,14 +9,6 @@ class Admin extends CI_Controller {
 			'title' => "Dashboard"
 		);
 		$this->load->view('admin/dashboard', $data);
-	}
-
-    public function login()
-	{
-        $data = array(
-			'title' => "Login"
-		);
-		$this->load->view('admin/login', $data);
 	}
 
     public function menusatu()
