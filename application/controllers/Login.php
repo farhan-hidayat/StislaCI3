@@ -11,4 +11,12 @@ class Login extends CI_Controller {
 		$this->load->view('login', $data);
 	}
 
+	public function regis()
+	{
+        $data = array(
+			'title' => "Buat Akun"
+		);
+		$this->load->view('regis', $data);
+	}
+
 }
